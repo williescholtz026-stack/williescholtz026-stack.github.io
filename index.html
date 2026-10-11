@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Managed AI customer-support assistants grounded in your approved help content, with human escalation and ongoing quality review.">
+  <title>Clariover | AI customer support, set up and managed</title>
+  <style>
+    :root { color-scheme: light; --ink:#112523; --muted:#526461; --paper:#f5f6f1; --white:#fff; --green:#baf278; --teal:#123e39; --line:#dce4dc; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--paper); color:var(--ink); font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif; line-height:1.55; }
+    a { color:inherit; }
+    .wrap { width:min(1120px,calc(100% - 40px)); margin:auto; }
+    header { padding:24px 0; }
+    nav { display:flex; align-items:center; justify-content:space-between; gap:24px; }
+    .logo { font-size:1.15rem; font-weight:800; letter-spacing:.09em; text-decoration:none; }
+    .logo span { color:#5b8d61; }
+    nav a:last-child,.button { text-decoration:none; font-weight:700; border-radius:999px; background:var(--ink); color:white; padding:12px 20px; }
+    .hero { padding:86px 0 78px; background:radial-gradient(ellipse at 85% 5%,#e2edce 0,transparent 40%); }
+    .eyebrow { color:#4f7554; text-transform:uppercase; letter-spacing:.14em; font-size:.75rem; font-weight:800; }
+    h1 { max-width:850px; font-size:clamp(2.8rem,7vw,5.8rem); line-height:.99; letter-spacing:-.065em; margin:22px 0; }
+    .lead { max-width:680px; color:var(--muted); font-size:1.18rem; }
+    .hero-actions { display:flex; align-items:center; flex-wrap:wrap; gap:18px; margin-top:30px; }
+    .hero-actions .quiet { font-weight:700; text-decoration-thickness:1px; text-underline-offset:4px; }
+    .proofline { margin-top:56px; border-top:1px solid var(--line); padding-top:20px; color:var(--muted); font-size:.9rem; }
+    section { padding:72px 0; }
+    .section-head { max-width:690px; margin-bottom:32px; }
+    h2 { margin:8px 0 14px; font-size:clamp(2rem,4vw,3.2rem); letter-spacing:-.045em; line-height:1.08; }
+    h3 { margin:0 0 10px; font-size:1.15rem; }
+    p { margin:0 0 14px; }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+    .card { background:var(--white); border:1px solid var(--line); border-radius:18px; padding:26px; }
+    .num { width:34px; height:34px; display:grid; place-items:center; border-radius:50%; background:#e8f1dc; color:#365a3c; font-weight:800; margin-bottom:20px; }
+    .muted { color:var(--muted); }
+    .dark { background:var(--teal); color:white; }
+    .dark .eyebrow { color:var(--green); }
+    .dark .muted { color:#d0dfd8; }
+    .steps { display:grid; grid-template-columns:repeat(4,1fr); gap:18px; counter-reset:steps; }
+    .step { border-top:1px solid #50736c; padding-top:18px; }
+    .step b { display:block; margin-bottom:8px; color:var(--green); }
+    .pilot { display:grid; grid-template-columns:1.1fr .9fr; gap:36px; align-items:start; }
+    .checklist { list-style:none; padding:0; margin:0; }
+    .checklist li { padding:12px 0; border-bottom:1px solid var(--line); }
+    .checklist li:before { content:"✓"; color:#588253; font-weight:900; margin-right:12px; }
+    .pilotbox { background:var(--teal); color:white; border-radius:20px; padding:30px; }
+    .pilotbox .price { font-size:2rem; font-weight:800; letter-spacing:-.04em; margin:10px 0; }
+    footer { padding:28px 0; border-top:1px solid var(--line); color:var(--muted); font-size:.88rem; }
+    footer .wrap { display:flex; justify-content:space-between; gap:20px; flex-wrap:wrap; }
+    @media(max-width:760px){ .hero{padding:58px 0;} section{padding:54px 0;} .grid,.steps,.pilot{grid-template-columns:1fr;} nav a:last-child{padding:10px 14px;} }
+  </style>
+</head>
+<body>
+  <header><div class="wrap"><nav><a class="logo" href="#top">CLARIO<span>VER</span></a><a href="#pilot">See the pilot</a></nav></div></header>
+  <main id="top">
+    <section class="hero"><div class="wrap">
+      <div class="eyebrow">AI customer support, set up and managed</div>
+      <h1>Faster answers for customers. People stay in control.</h1>
+      <p class="lead">We set up and manage a website support assistant that answers routine questions from your approved help content, captures interested leads, and passes uncertain issues to your team.</p>
+      <div class="hero-actions"><a class="button" href="#pilot">Explore the 30-day pilot</a><a class="quiet" href="#how">How it works</a></div>
+      <div class="proofline">Built around your existing support content, escalation rules, and customer experience.</div>
+    </div></section>
+    <section><div class="wrap">
+      <div class="section-head"><div class="eyebrow">The service</div><h2>A useful assistant, with a human safety net.</h2><p class="muted">The assistant works from sources you approve. Your support team remains responsible for sensitive or unclear cases, and we review performance with you.</p></div>
+      <div class="grid">
+        <article class="card"><div class="num">01</div><h3>Grounded in your content</h3><p class="muted">We organize your public FAQs, policies, and product information so routine answers point back to the information your business approved.</p></article>
+        <article class="card"><div class="num">02</div><h3>Escalation built in</h3><p class="muted">Questions outside the agreed scope are directed to your team, with clear rules for complaints, account issues, and low-confidence answers.</p></article>
+        <article class="card"><div class="num">03</div><h3>Managed after launch</h3><p class="muted">We review sampled conversations, fix content gaps with your approval, and share a plain-language monthly report.</p></article>
+      </div>
+    </div></section>
+    <section class="dark" id="how"><div class="wrap">
+      <div class="section-head"><div class="eyebrow">A measured rollout</div><h2>Start small. Check the answers. Improve from real questions.</h2><p class="muted">No custom software project is required to test whether this is useful for your support team.</p></div>
+      <div class="steps">
+        <div class="step"><b>01 · Review</b><p>Choose a team, website, and recurring questions for the pilot.</p></div>
+        <div class="step"><b>02 · Configure</b><p>Connect approved help content and agree on handoff rules.</p></div>
+        <div class="step"><b>03 · Test</b><p>Check realistic questions, including those the assistant should escalate.</p></div>
+        <div class="step"><b>04 · Learn</b><p>Review results together and decide whether to continue.</p></div>
+      </div>
+    </div></section>
+    <section id="pilot"><div class="wrap pilot">
+      <div><div class="eyebrow">First engagement</div><h2>A 30-day paid pilot with a clear scope.</h2><p class="muted">We agree on what success means before setup begins. The pilot is designed to test answer quality and fit in your workflow; it does not promise a specific savings or resolution rate.</p>
+        <ul class="checklist"><li>One website and one language</li><li>One agreed set of approved support content</li><li>Test questions and human handoff rules</li><li>Weekly quality review during the pilot</li><li>Closeout report with findings and next steps</li></ul>
+      </div>
+      <aside class="pilotbox"><div class="eyebrow">Pilot pricing</div><div class="price">From $750</div><p class="muted">Final scope and any platform usage charges are agreed in writing before work starts. The client owns and pays for its chosen third-party platform account.</p><p>Ready to assess fit? Start with a short support workflow review.</p></aside>
+    </div></section>
+  </main>
+  <footer><div class="wrap"><span>© 2026 Clariover · AI support setup and management</span><span>Service details and pilot scope are agreed with each client.</span></div></footer>
+</body>
+</html>
